@@ -2,16 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    android:padding="32dp"
-    android:background="#F5F5F5">
-    <Button
-        android:id="@+id/btnPick"
-        android:layout_width="wrap_content"
+    android:background="@color/bg_color">
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pick Image & Set Wallpaper"
-        android:textSize="18sp"
-        android:paddingHorizontal="32dp"
-        android:paddingVertical="16dp" />
+        android:text="Wallpaper"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_main"
+        android:padding="20dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:clipToPadding="false"/>
 </LinearLayout>
