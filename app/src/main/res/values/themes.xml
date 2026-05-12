@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.WallpaperApp" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.WallpaperApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_btn</item>
         <item name="android:statusBarColor">@color/bg_color</item>
     </style>
-    <style name="Theme.Splash" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowBackground">@color/bg_color</item>
         <item name="android:statusBarColor">@color/bg_color</item>
     </style>
-</resources><resources> 
-    <style name="Theme.WallpaperApp" parent="Theme.MaterialComponents.Light.NoActionBar"> 
-        <item name="colorPrimary">@color/primary_btn</item> 
-        <item name="android:statusBarColor">@color/bg_color</item> 
-    </style> 
-    <style name="Theme.Splash" parent="Theme.MaterialComponents.Light.NoActionBar"> 
-        <item name="android:windowBackground">@color/bg_color</item> 
-        <item name="android:statusBarColor">@color/bg_color</item> 
-    </style> 
-<resources> 
-    <style name="Theme.WallpaperApp" parent="Theme.MaterialComponents.Light.NoActionBar"> 
-        <item name="colorPrimary">@color/primary_btn</item> 
-        <item name="android:statusBarColor">@color/bg_color</item> 
-    </style> 
-    <style name="Theme.Splash" parent="Theme.MaterialComponents.Light.NoActionBar"> 
-        <item name="android:windowBackground">@color/bg_color</item> 
-        <item name="android:statusBarColor">@color/bg_color</item> 
-    </style> 
+</resources>
